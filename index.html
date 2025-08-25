@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agoda - Hotel Booking Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jet 2 U Holiday</h1>
+    </header>
+
+    <div class="hero">
+        <h1>Find the perfect place to stay</h1>
+        <p>Discover amazing deals on hotels, homes, and much more...</p>
+        <form>
+        <div class="search-form">
+            <div class="form-tabs">
+                <div class="form-tab active">Book</div>
+                <div class="form-tab">Reserve (Coming Soon)</div>
+                <div class="form-tab">Flights (Coming Soon)</div>
+            </div>
+            
+        <div class="form-group">
+                    <label for="destination">Destination</label>
+                    <select placeholder="Where are you going?">
+                        <option value="bali">Bali, Indonesia</option>
+                        <option value="bangkok">Bangkok, Thailand</option>
+                        <option value="manila">Manila, Philippines</option>
+                        <option value="tokyo">Tokyo, Japan</option>
+                    </select>
+                </div>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="check-in">Check-in</label>
+                    <input type="date" id="check-in">
+                </div>
+                
+                <div class="form-group">
+                    <label for="check-out">Check-out</label>
+                    <input type="date" id="check-out">
+                </div>
+                </div>
+                <div class="form-group">
+                    <label for="travelers">Travelers & Rooms</label>
+                    <div style="display: flex; align-items: center; gap: 10px; justify-content: center;">
+                        <span>Adults</span>
+                        <input type="number" id="adults" min="1" max="60" style="width: 90px;" placeholder="1-60">
+                        <span>Children</span>
+                        <input type="number" id="children" min="0" max="60" style="width: 90px;" placeholder="0-60">
+                        <span>Rooms</span>
+                        <input type="number" id="rooms" min="1" max="30" style="width: 90px;" placeholder="1-30">
+                    </div>
+            </div>
+            </form>
+
+            <button class="search-btn" type="submit">Submit</button>
+        </div>
+
+            <h2 class="section-title">Today's Top Deals</h2>
+    <div class="promo-cards">
+        <div class="promo-card">
+            <div class="card-img">Bali Hotel Image</div>
+            <div class="card-content">
+                <h3>Bali, Indonesia</h3>
+                <p>Save up to 25% on select hotels in beautiful Bali</p>
+                <a href="BALI.html" class="card-btn">View Deals</a>
+            </div>
+        </div>
+        
+        <div class="promo-card">
+            <div class="card-img">Bangkok Hotel Image</div>
+            <div class="card-content">
+                <h3>Bangkok, Thailand</h3>
+                <p>Last minute deals in the heart of Bangkok</p>
+                <a href="BANGKOK.html" class="card-btn">View Deals</a>
+            </div>
+        </div>
+        
+        <div class="promo-card">
+            <div class="card-img">Tokyo Hotel Image</div>
+            <div class="card-content">
+                <h3>Manila, Philippines</h3>
+                <p>Experience Filipino hospitality with special rates</p>
+                <a href="PH.html" class="card-btn">View Deals</a>
+            </div>
+        </div>
+        <div class="promo-card">
+            <div class="card-img">Tokyo Hotel Image</div>
+            <div class="card-content">
+                <h3>Tokyo, Japan</h3>
+                <p>Experience Japanese hospitality with special rates</p>
+                <a href="JAPAN.html" class="card-btn">View Deals</a>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <p>&copy; 2025 CS11. All rights reserved.</p>
+        </footer>
+    </div>
